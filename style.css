@@ -141,21 +141,21 @@ nav button#menuButton{
 
 .plans h3,
 .about .right h3,
-.events .header h3,
-.feedback h3{
+.events .header h3{
     font-size: 40px;
     margin-top: 20px;
 }
 
 .plans .plan-items{
     display: flex;
-    margin-top: 70px;
+    margin-top: 60px;
     gap: 30px;
 }
 
 .plans .plan-items .item{
     background-color: #deebee;
     width: 25%;
+    margin-bottom: 10%;
     border-radius: 10px;
     padding: 32px;
     border-bottom: 4px solid transparent;
@@ -295,64 +295,6 @@ nav button#menuButton{
     font-size: 16px;
 }
 
-.feedback{
-    padding: 110px 85px;
-}
-
-.feedback .customers{
-    margin-top: 50px;
-    display: flex;
-    gap: 40px;
-}
-
-.feedback .customers .item{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: 2px solid #006b6a;
-    border-radius: 10px;
-    padding: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.feedback .customers .item .rating{
-    color: #006b6a;
-    font-size: 22px;
-}
-
-.feedback .customers .item:hover{
-    border-color: #5e3bee;
-}
-
-.feedback .customers .item p{
-    line-height: 22px;
-    font-size: 14px;
-}
-
-.feedback .customers .item .user{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.feedback .customers .item .user img{
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.feedback .customers .item .user h5{
-    font-size: 13px;
-    font-weight: 500;
-    margin-bottom: 3px;
-}
-
-.feedback .customers .item .user p{
-    font-size: 12px;
-}
-
 footer{
     background-color: #deebee;
     padding: 85px;
@@ -424,21 +366,12 @@ footer .bottom .links a{
 
     .plans h3,
     .about .right h3,
-    .events .header h3,
-    .feedback h3{
+    .events .header h3{
         font-size: 32px;
     }
 
     .about .right p{
         font-size: 15px;
-    }
-
-    .feedback .customers .item .rating{
-        font-size: 20px;
-    }
-
-    .feedback .customers .item p{
-        font-size: 13px;
     }
 
     footer .top ul{
@@ -477,16 +410,6 @@ footer .bottom .links a{
     }
 
     .events .event-items .item{
-        width: 48%;
-    }
-
-    .feedback .customers{
-        gap: 14px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .feedback .customers .item{
         width: 48%;
     }
 
@@ -543,10 +466,6 @@ footer .bottom .links a{
         gap: 18px;
     }
 
-    .feedback{
-        padding: 85px 42px;
-    }
-
     footer{
         padding: 85px 42px;
     }
@@ -591,10 +510,6 @@ footer .bottom .links a{
 
     .events .event-items .item{
         width: 80%;
-    }
-
-    .feedback .customers .item{
-        width: 100%;
     }
 
 }
